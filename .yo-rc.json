@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.bt.sip.service"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "microservice",
+    "baseName": "sipservice",
+    "packageName": "com.bt.sip.service",
+    "packageFolder": "com/bt/sip/service",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODNjMzA0MzI1M2IwNzliYTJlZTkzNGIzMTgwOWZhODAzN2E4ZGI2ZGRmODAzYzMwOWZmYzc1MTRmMjRiMDY1ZWIwZDNlZWI4ZWNkOWE3YzkzNDlmOTExNmM3MmQwNTAwMTE1MjI3YjBlNTgxODZlMDU4YmM4MzdhNmM3N2YzNWU=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
