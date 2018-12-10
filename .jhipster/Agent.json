@@ -1,0 +1,30 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "sipservice",
+    "relationships": [
+        {
+            "relationshipName": "skillgroup",
+            "otherEntityName": "skillgroup",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "agentname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20181210004100",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "agent",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "sipservice"
+}

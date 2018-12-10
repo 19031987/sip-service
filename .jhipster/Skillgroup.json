@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "sipservice",
+    "relationships": [
+        {
+            "relationshipName": "agent",
+            "otherEntityName": "agent",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "skillgroup"
+        },
+        {
+            "relationshipName": "queue",
+            "otherEntityName": "queue",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "skillgroup"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20181210004339",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceImpl",
+    "entityTableName": "skillgroup",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no",
+    "microserviceName": "sipservice"
+}
